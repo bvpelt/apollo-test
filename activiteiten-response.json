@@ -1,0 +1,486 @@
+{
+    "_embedded": {
+        "activiteiten": [
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.AcculaderInWerkingHebben",
+                "procedurestatus": "vastgesteld",
+                "naam": "Acculader in werking hebben",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AcculaderInWerkingHebben"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AcculaderInWerkingHebben/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AcculaderInWerkingHebben/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.ActBetrGemMonument",
+                "procedurestatus": "vastgesteld",
+                "naam": "Activiteit die betrekking heeft op een gemeentelijk monument",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Monumentenactiviteit",
+                    "waarde": "monumentenactiviteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActBetrGemMonument"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActBetrGemMonument/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActBetrGemMonument/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.OverigeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.ActInOmgevingsplanGem",
+                "procedurestatus": "vastgesteld",
+                "naam": "Activiteit gereguleerd in het omgevingsplan gemeente Leeuwarden",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig",
+                    "waarde": "overig"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActInOmgevingsplanGem"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActInOmgevingsplanGem/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActInOmgevingsplanGem/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-mnre1034.activiteit.ActInOmgevingsplan"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.AlarminstallatieHebben",
+                "procedurestatus": "vastgesteld",
+                "naam": "Alarminstallatie hebben",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Alarminstallatieactiviteit",
+                    "waarde": "alarminstallatieactiviteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AlarminstallatieHebben"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AlarminstallatieHebben/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AlarminstallatieHebben/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.OverigeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.AntihagelkanonHebben",
+                "procedurestatus": "vastgesteld",
+                "naam": "Antihagelkanonnen in werking hebben",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AntihagelkanonHebben"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AntihagelkanonHebben/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.AntihagelkanonHebben/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BetonUitwassen",
+                "procedurestatus": "vastgesteld",
+                "naam": "Beton uitwassen",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BetonUitwassen"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BetonUitwassen/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BetonUitwassen/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BijbehorendBouwwerk",
+                "procedurestatus": "vastgesteld",
+                "naam": "Bijbehorend bouwwerk of een uitbreiding daarvan bouwen, in stand houden of gebruiken",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BijbehorendBouwwerk"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BijbehorendBouwwerk/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BijbehorendBouwwerk/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BouwwerkAgrarischBouwen",
+                "procedurestatus": "vastgesteld",
+                "naam": "Bouwwerk voor agrarische bedrijfsvoering bouwen, in stand houden of gebruiken",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkAgrarischBouwen"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkAgrarischBouwen/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkAgrarischBouwen/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BouwwerkBouwen",
+                "procedurestatus": "vastgesteld",
+                "naam": "Bouwactiviteit (omgevingsplan)",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ActInOmgevingsplanGem"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BouwwerkGebruiken",
+                "procedurestatus": "vastgesteld",
+                "naam": "Locaties of bouwwerken gebruiken",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Overig",
+                    "waarde": "overig"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkGebruiken"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkGebruiken/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkGebruiken/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.OverigeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BouwwerkSlopen",
+                "procedurestatus": "vastgesteld",
+                "naam": "Bouwwerk slopen",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/Sloopactiviteit",
+                    "waarde": "sloopactiviteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkSlopen"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkSlopen/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkSlopen/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.OverigeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BouwwerkVeranderen",
+                "procedurestatus": "vastgesteld",
+                "naam": "Bouwwerk veranderen",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkVeranderen"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkVeranderen/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkVeranderen/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.BuisleidingBouwen",
+                "procedurestatus": "vastgesteld",
+                "naam": "Buisleiding bouwen, in stand houden of gebruiken",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BuisleidingBouwen"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BuisleidingBouwen/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BuisleidingBouwen/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.DakkapelVoorkant",
+                "procedurestatus": "vastgesteld",
+                "naam": "Dakkapel in een voordakvlak of in een naar openbaar toegankelijk gebied gekeerd zijdakvlak bouwen, in stand houden of gebruiken",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DakkapelVoorkant"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DakkapelVoorkant/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DakkapelVoorkant/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.DierenSlachten",
+                "procedurestatus": "vastgesteld",
+                "naam": "Dieren slachten en dierlijke bijproducten bewerken of vlees, vis of organen uitsnijden",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DierenSlachten"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DierenSlachten/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DierenSlachten/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.DierlijkeMestOpslaan",
+                "procedurestatus": "vastgesteld",
+                "naam": "Dierlijke meststoffen opslaan",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DierlijkeMestOpslaan"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DierlijkeMestOpslaan/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.DierlijkeMestOpslaan/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.ElektrWindturbine",
+                "procedurestatus": "vastgesteld",
+                "naam": "Elektriciteit opwekken met een windturbine die slagschaduw of lichtschittering veroorzaakt",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ElektrWindturbine"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ElektrWindturbine/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ElektrWindturbine/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.Energiebesparing",
+                "procedurestatus": "vastgesteld",
+                "naam": "Energiebesparing bij milieubelastende activiteiten die niet zijn aangewezen in het Besluit activieiten leefomgeving",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.Energiebesparing"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.Energiebesparing/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.Energiebesparing/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.ErfafscheidingHoog",
+                "procedurestatus": "vastgesteld",
+                "naam": "Erf- of perceelafscheiding (hoger dan 1 meter) bouwen, in stand houden of gebruiken",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/BouwactiviteitRuimtelijk",
+                    "waarde": "bouwactiviteit ruimtelijk"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ErfafscheidingHoog"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ErfafscheidingHoog/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.ErfafscheidingHoog/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.BouwwerkBouwen"
+                    }
+                }
+            },
+            {
+                "identificatie": "nl.imow-gm0080.activiteit.FokkenLandbHuisdieren",
+                "procedurestatus": "vastgesteld",
+                "naam": "Landbouwhuisdieren, andere zoogdieren of vogels fokken, houden of trainen",
+                "groep": {
+                    "code": "http://standaarden.omgevingswet.overheid.nl/activiteit/id/concept/MilieubelastendeActiviteit",
+                    "waarde": "milieubelastende activiteit"
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.FokkenLandbHuisdieren"
+                    },
+                    "beschrevenIn": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.FokkenLandbHuisdieren/regelteksten"
+                    },
+                    "isGereguleerdVoor": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.FokkenLandbHuisdieren/locaties"
+                    },
+                    "is": {
+                        "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten/nl.imow-gm0080.activiteit.MilieubelastendeAct"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten?page=0&size=20&sort=identificatie,asc"
+        },
+        "self": {
+            "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten?page=0&size=20&sort=identificatie,asc"
+        },
+        "next": {
+            "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten?page=1&size=20&sort=identificatie,asc"
+        },
+        "last": {
+            "href": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5/activiteiten?page=353&size=20&sort=identificatie,asc"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 7062,
+        "totalPages": 354,
+        "number": 0
+    }
+}
