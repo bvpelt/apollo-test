@@ -1,0 +1,537 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Omgevingsdocumenten-Presenteren",
+        "description": "De Omgevingsdocumenten Presenteren API ontsluit beschikbaar gestelde omgevingsdocumenten op zo'n manier dat deze eenvoudig visueel te verbeelden zijn. Op de Ontwikkel, Test, Acceptatie en Pre-productieomgeving worden ook omgevingsdocumenten toegevoegd en verwijderd door beheerders voor testdoeleinden binnen en buiten de voorziening.<br/>\n<br/>\nDe Omgevingsdocumenten Presenteren API volgt de standaarden zoals beschreven in de DSO API-strategie versie 1.1. Zo is het standaard mediatype HAL (`application/hal+json`). Dit is een mediatype voor het weergeven van resources en hun relaties via hyperlinks.",
+        "version": "5.0.9"
+    },
+    "servers": [
+        {
+            "url": "https://nep-knooppunt-test.viewer.dso.kadaster.nl/publiek/omgevingsdocumenten/api/presenteren/v5",
+            "description": "basePath"
+        }
+    ],
+    "tags": [
+        {
+            "name": "Afbeeldingen",
+            "description": "Afbeeldingen uit omgevingsdocumenten."
+        },
+        {
+            "name": "Activiteiten",
+            "description": "Activiteiten bevat activiteit uitspraken die in omgevingsdocumenten staan."
+        },
+        {
+            "name": "Omgevingsdocumenten",
+            "description": "Omgevingsdocumenten en hun structuur."
+        },
+        {
+            "name": "Regelteksten",
+            "description": "Regelteksten bevatten JuridischeRegels die beschreven zijn in omgevingsdocumenten."
+        },
+        {
+            "name": "Divisies",
+            "description": "Divisies bevatten Tekstdelen die beschreven zijn in omgevingsvisies en projectbesluiten."
+        },
+        {
+            "name": "Kaarten",
+            "description": "Kaarten bevatten aparte visualisaties van informatie over CIMOW-objecten."
+        },
+        {
+            "name": "Gebiedsaanwijzingen",
+            "description": "Gebiedsaanwijzingen zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Beperkingengebieden",
+            "description": "Beperkingengebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Bodem",
+            "description": "Bodemgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Defensie",
+            "description": "Defensiegebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Energievoorziening",
+            "description": "Energievoorzieninggebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Erfgoed",
+            "description": "Erfgoedgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "ExterneVeiligheid",
+            "description": "Externeveiligheidgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Functies",
+            "description": "Functies bevat functie uitspraken die in omgevingsdocumenten staan."
+        },
+        {
+            "name": "Geluid",
+            "description": "Geluidgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Geur",
+            "description": "Geurgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Landschap",
+            "description": "Landschapgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Leiding",
+            "description": "Leidinggebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Lucht",
+            "description": "Luchtgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Natuur",
+            "description": "Natuurgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Mijnbouw",
+            "description": "Mijnbouwgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Recreatie",
+            "description": "Recreatiegebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "RuimtelijkGebruik",
+            "description": "Ruimtelijkgebruikgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Verkeer",
+            "description": "Verkeergebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "WaterEnWatersysteem",
+            "description": "Water- en watersysteemgebieden zijn gebieden waar een regel betrekking op heeft."
+        },
+        {
+            "name": "Omgevingsnormen",
+            "description": "Omgevingsnormen zoals beschreven in de omgevingswet."
+        },
+        {
+            "name": "Omgevingswaarden",
+            "description": "Omgevingswaarden zoals beschreven in de omgevingswet."
+        },
+        {
+            "name": "Attributen",
+            "description": "Attributen van Omgevingdocumentobjecten."
+        },
+        {
+            "name": "Meta",
+            "description": "Operaties die niet domeinspecifiek zijn, maar over de applicatie gaan."
+        }
+    ],
+    "paths": {
+        "/activiteiten": {
+            "get": {
+                "tags": [
+                    "Activiteiten"
+                ],
+                "summary": "Alle vastgestelde activiteiten opvragen",
+                "operationId": "getActiviteiten",
+                "responses": {
+                    "200": {
+                        "description": "Activiteiten",
+                        "headers": {
+                            "X-Total-Count": {
+                                "description": "Totaal aantal objecten.",
+                                "required": false,
+                                "style": "simple",
+                                "explode": false,
+                                "schema": {
+                                    "type": "integer",
+                                    "example": 100
+                                }
+                            },
+                            "X-Pagination-Count": {
+                                "description": "Totaal aantal pagina's.",
+                                "required": false,
+                                "style": "simple",
+                                "explode": false,
+                                "schema": {
+                                    "type": "integer",
+                                    "example": 3
+                                }
+                            },
+                            "X-Pagination-Page": {
+                                "description": "Huidige pagina.",
+                                "required": false,
+                                "style": "simple",
+                                "explode": false,
+                                "schema": {
+                                    "type": "integer",
+                                    "example": 1
+                                }
+                            },
+                            "X-Pagination-Limit": {
+                                "description": "Objecten per pagina.",
+                                "required": false,
+                                "style": "simple",
+                                "explode": false,
+                                "schema": {
+                                    "type": "integer",
+                                    "example": 3
+                                }
+                            }
+                        },
+                        "content": {
+                            "application/hal+json": {
+                                "schema": {
+                                    "required": [
+                                        "_embedded",
+                                        "_links",
+                                        "page"
+                                    ],
+                                    "type": "object",
+                                    "properties": {
+                                        "_embedded": {
+                                            "required": [
+                                                "activiteiten"
+                                            ],
+                                            "type": "object",
+                                            "properties": {
+                                                "activiteiten": {
+                                                    "type": "array",
+                                                    "items": {
+                                                        "title": "Activiteit",
+                                                        "required": [
+                                                            "_links",
+                                                            "groep",
+                                                            "identificatie",
+                                                            "naam"
+                                                        ],
+                                                        "type": "object",
+                                                        "properties": {
+                                                            "identificatie": {
+                                                                "title": "Identificatie",
+                                                                "type": "string"
+                                                            },
+                                                            "naam": {
+                                                                "title": "naam",
+                                                                "type": "string",
+                                                                "description": "Een (korte) omschrijving van de activiteit."
+                                                            },
+                                                            "groep": {
+                                                                "title": "Activiteitengroep",
+                                                                "properties": {
+                                                                    "code": {
+                                                                        "type": "string"
+                                                                    },
+                                                                    "waarde": {
+                                                                        "type": "string"
+                                                                    }
+                                                                },
+                                                                "description": "Een uitbreidbare lijst met een opsomming van de mogelijke domeinwaarden van een attribuutsoort, die buiten het model in een externe waardenlijst worden beheerd.  Locatie: urn:imow:Activiteitengroep"
+                                                            },
+                                                            "procedurestatus": {
+                                                                "type": "string",
+                                                                "enum": [
+                                                                    "vastgesteld",
+                                                                    "ontwerp"
+                                                                ]
+                                                            },
+                                                            "_links": {
+                                                                "required": [
+                                                                    "is",
+                                                                    "isGereguleerdVoor",
+                                                                    "self"
+                                                                ],
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "self": {
+                                                                        "required": [
+                                                                            "href"
+                                                                        ],
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "href": {
+                                                                                "type": "string",
+                                                                                "format": "uri",
+                                                                                "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                            }
+                                                                        },
+                                                                        "description": "HAL link."
+                                                                    },
+                                                                    "beschrevenIn": {
+                                                                        "required": [
+                                                                            "href"
+                                                                        ],
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "href": {
+                                                                                "type": "string",
+                                                                                "format": "uri",
+                                                                                "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                            }
+                                                                        },
+                                                                        "description": "HAL link."
+                                                                    },
+                                                                    "isGereguleerdVoor": {
+                                                                        "required": [
+                                                                            "href"
+                                                                        ],
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "href": {
+                                                                                "type": "string",
+                                                                                "format": "uri",
+                                                                                "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                            }
+                                                                        },
+                                                                        "description": "HAL link."
+                                                                    },
+                                                                    "is": {
+                                                                        "required": [
+                                                                            "href"
+                                                                        ],
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "href": {
+                                                                                "type": "string",
+                                                                                "format": "uri",
+                                                                                "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                            }
+                                                                        },
+                                                                        "description": "HAL link."
+                                                                    },
+                                                                    "gerelateerd": {
+                                                                        "required": [
+                                                                            "href"
+                                                                        ],
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "href": {
+                                                                                "type": "string",
+                                                                                "format": "uri",
+                                                                                "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                            }
+                                                                        },
+                                                                        "description": "HAL link."
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "description": "Een activiteit is ieder menselijk handelen waarbij, of ieder menselijk nalaten waardoor een verandering of effect in de fysieke leefomgeving wordt of kan worden bewerkstelligd."
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "_links": {
+                                            "allOf": [
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "self": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "href": {
+                                                                    "type": "string",
+                                                                    "format": "uri",
+                                                                    "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                }
+                                                            },
+                                                            "description": "uri van de api aanroep die tot dit resultaat heeft geleid"
+                                                        }
+                                                    }
+                                                },
+                                                {
+                                                    "type": "object",
+                                                    "properties": {
+                                                        "first": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "href": {
+                                                                    "type": "string",
+                                                                    "format": "uri",
+                                                                    "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                },
+                                                                "title": {
+                                                                    "type": "string",
+                                                                    "example": "Eerste pagina"
+                                                                }
+                                                            },
+                                                            "description": "uri voor het opvragen van de eerste pagina van deze collectie"
+                                                        },
+                                                        "last": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "href": {
+                                                                    "type": "string",
+                                                                    "format": "uri",
+                                                                    "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                },
+                                                                "title": {
+                                                                    "type": "string",
+                                                                    "example": "Laatste pagina"
+                                                                }
+                                                            },
+                                                            "description": "uri voor het opvragen van de laatste pagina van deze collectie"
+                                                        },
+                                                        "prev": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "href": {
+                                                                    "type": "string",
+                                                                    "format": "uri",
+                                                                    "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                },
+                                                                "title": {
+                                                                    "type": "string",
+                                                                    "example": "Vorige pagina"
+                                                                }
+                                                            },
+                                                            "description": "uri voor het opvragen van de vorige pagina van deze collectie"
+                                                        },
+                                                        "next": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "href": {
+                                                                    "type": "string",
+                                                                    "format": "uri",
+                                                                    "example": "datapunt.voorbeeldgemeente.nl/api/resourcename/123456789"
+                                                                },
+                                                                "title": {
+                                                                    "type": "string",
+                                                                    "example": "Volgende pagina"
+                                                                }
+                                                            },
+                                                            "description": "uri voor het opvragen van de volgende pagina van deze collectie"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        "page": {
+                                            "required": [
+                                                "number",
+                                                "size",
+                                                "totalElements",
+                                                "totalPages"
+                                            ],
+                                            "type": "object",
+                                            "properties": {
+                                                "size": {
+                                                    "type": "integer",
+                                                    "format": "int32",
+                                                    "example": 20
+                                                },
+                                                "totalElements": {
+                                                    "type": "integer",
+                                                    "format": "int32",
+                                                    "example": 1
+                                                },
+                                                "totalPages": {
+                                                    "type": "integer",
+                                                    "format": "int32",
+                                                    "example": 1
+                                                },
+                                                "number": {
+                                                    "type": "integer",
+                                                    "format": "int32",
+                                                    "example": 0
+                                                }
+                                            },
+                                            "description": "Info voor paginering"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request",
+                        "content": {
+                            "application/problem+json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "type": {
+                                            "type": "string",
+                                            "description": "Absolute URI dat het probleemtype identificeert.\n",
+                                            "format": "uri",
+                                            "default": "about:blank"
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "description": "Een korte samenvatting van het probleemtype bedoeld voor ontwikkelaars.\n"
+                                        },
+                                        "status": {
+                                            "maximum": 600,
+                                            "exclusiveMaximum": true,
+                                            "minimum": 100,
+                                            "type": "integer",
+                                            "description": "De HTTP statuscode gegenereerd door de server waar het probleem zich voordoet.\n",
+                                            "format": "int32",
+                                            "example": 503
+                                        },
+                                        "detail": {
+                                            "type": "string",
+                                            "description": "Mens-leesbare uitleg van dit specifieke probleem.\n",
+                                            "example": "Geen verbinding met de database"
+                                        },
+                                        "instance": {
+                                            "type": "string",
+                                            "description": "Absolute URI dat dit specifieke probleem identificeert.\n",
+                                            "format": "uri"
+                                        }
+                                    },
+                                    "description": "Standaardformaat (`application/problem+json`) voor probleemdetails in HTTP API's (RFC 7807)."
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Onverwacht probleem",
+                        "content": {
+                            "application/problem+json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "type": {
+                                            "type": "string",
+                                            "description": "Absolute URI dat het probleemtype identificeert.\n",
+                                            "format": "uri",
+                                            "default": "about:blank"
+                                        },
+                                        "title": {
+                                            "type": "string",
+                                            "description": "Een korte samenvatting van het probleemtype bedoeld voor ontwikkelaars.\n"
+                                        },
+                                        "status": {
+                                            "maximum": 600,
+                                            "exclusiveMaximum": true,
+                                            "minimum": 100,
+                                            "type": "integer",
+                                            "description": "De HTTP statuscode gegenereerd door de server waar het probleem zich voordoet.\n",
+                                            "format": "int32",
+                                            "example": 503
+                                        },
+                                        "detail": {
+                                            "type": "string",
+                                            "description": "Mens-leesbare uitleg van dit specifieke probleem.\n",
+                                            "example": "Geen verbinding met de database"
+                                        },
+                                        "instance": {
+                                            "type": "string",
+                                            "description": "Absolute URI dat dit specifieke probleem identificeert.\n",
+                                            "format": "uri"
+                                        }
+                                    },
+                                    "description": "Standaardformaat (`application/problem+json`) voor probleemdetails in HTTP API's (RFC 7807)."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
