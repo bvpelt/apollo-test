@@ -4,7 +4,9 @@ const { gql } = require('apollo-server');
 // that together define the "shape" of queries that are executed against
 // your data.
 const typeDefs = gql`
-  # Comments in GraphQL strings (such as this one) start with the hash (#) symbol.
+# Comments in GraphQL strings (such as this one) start with the hash (#) symbol.
+
+type AangeleverdDoorEen { naam: String code: String _links: Links }
 
 type Activiteiten { identificatie: String
   procedurestatus: String
@@ -17,13 +19,21 @@ type ActiviteitLinks { is: Is
   beschrevenIn: BeschrevenIn
   self: Self }
 
+type BeheertAmbtsgebied { href: String }
+
 type BeschrevenIn { href: String }
 
+type Documentstructuur { href: String }
+
 type EmbeddedActiviteiten { activiteiten: [Activiteiten ] }
+
+type EmbeddedOmgevingsdocumenten { omgevingsdocumenten: [Omgevingsdocumenten ] }
 
 type First { href: String }
 
 type Groep { code: String waarde: String }
+
+type HeeftRegelingsgebied { href: String }
 
 type Is { href: String }
 
@@ -33,19 +43,33 @@ type Last { href: String }
 
 type Links { last: Last next: Next self: Self first: First }
 
+type LinksOmgevingsdocument { themas: Themas
+  documentstructuur: Documentstructuur
+  heeftRegelingsgebied: HeeftRegelingsgebied
+  self: Self }
+
 type Next { href: String }
+
+type Omgevingsdocumenten { identificatie: String
+  type: String
+  citeertitel: String
+  opschrift: String
+  procedurestatus: String
+  inwerkingVanaf: String
+  geldigVanaf: String
+  _links: Links
+  aangeleverdDoorEen: AangeleverdDoorEen }
 
 type Page { size: Int
   totalElements: Int
   totalPages: Int
   number: Int }
 
-
 type Self { href: String }
 
+type Themas { href: String }
 
 type ActiviteitenResponseType { page: Page _links: Links _embedded: EmbeddedActiviteiten }
-
 
 type ActiviteitResponseType { identificatie: String
   procedurestatus: String
@@ -53,12 +77,22 @@ type ActiviteitResponseType { identificatie: String
   _links: ActiviteitLinks
   groep: Groep }
 
-
-  type ActiviteitenGerelateerdResponseType { identificatie: String
+type ActiviteitenGerelateerdResponseType { identificatie: String
   procedurestatus: String
   naam: String
   _links: ActiviteitLinks
   groep: Groep }
+
+type OmgevingsdocumentenResponseType { page: Page _links: Links _embedded: EmbeddedOmgevingsdocumenten }
+
+type OmgevingsdocumentResponseType { identificatie: String
+  type: String
+  opschrift: String
+  procedurestatus: String
+  inwerkingVanaf: String
+  geldigVanaf: String
+  _links: LinksOmgevingsdocument
+  aangeleverdDoorEen: AangeleverdDoorEen }
 
 # Types with identical fields:
 # Last Next Self First Is IsGereguleerdVoor BeschrevenIn
@@ -69,6 +103,8 @@ type Query {
   activiteiten: ActiviteitenResponseType
   activiteit(id: ID!): ActiviteitResponseType
   activiteitengerelateerd(id: ID!): ActiviteitenGerelateerdResponseType
+  omgevingsdocumenten: OmgevingsdocumentenResponseType
+  omgevingsdocument(id: ID!): OmgevingsdocumentResponseType
 }
 
 #type Mutation {

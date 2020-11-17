@@ -23,6 +23,18 @@ class OzonAPI extends RESTDataSource {
         const response = await this.get('activiteiten/' + activiteitenId + '/gerelateerd');
         return response;
     }
+
+    async getOmgevingsdocumenten() {
+        const response = await this.get('omgevingsdocumenten');
+
+        // transform the raw launches to a more friendly
+        return response;
+    }
+
+    async getOmgevingsdocument({ omgevingsdocumentId }) {
+        const response = await this.get('omgevingsdocumenten/' + omgevingsdocumentId);
+        return response;
+    }
 }
 
 

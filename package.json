@@ -22,6 +22,7 @@
     "apollo-datasource-rest": "^0.9.5",
     "apollo-server": "^2.19.0",
     "casual": "^1.6.2",
+    "dotenv": "^8.2.0",
     "graphql": "^14.7.0",
     "nodemon": "^2.0.6"
   },
