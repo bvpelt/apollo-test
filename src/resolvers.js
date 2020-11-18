@@ -20,14 +20,14 @@ module.exports = {
         },
 
         omgevingsdocument: (_, { id }, { dataSources }) =>
-        dataSources.ozonAPI.getOmgevingsdocument({ omgevingsdocumentId: id }),
+            dataSources.ozonAPI.getOmgevingsdocument({ omgevingsdocumentId: id }),
     },
 
-    Mutation: {       
-          activiteitenzoek:  async (_, { parameters }, { dataSources }) => {
+    Mutation: {
+        activiteitenzoek: async (_, { parameters }, { dataSources }) => {
             const response = await dataSources.ozonAPI.postActiviteitenZoek({ parameters });
             return response;
-          },          
+        },
     }
 };
 
