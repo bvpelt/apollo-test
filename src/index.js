@@ -15,7 +15,13 @@ const server = new ApolloServer({
     typeDefs,
     resolvers,
     dataSources,
-    OzonAPI
+    OzonAPI,
+    context: () => {
+        return {
+          token: 'f9303b04-8db4-4d34-b2a9-356ba490f977',
+          usedcrs: 'EPSG:28992'
+        };
+      },    
 });
 
 // The `listen` method launches a web server.
