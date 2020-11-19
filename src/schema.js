@@ -70,7 +70,7 @@ type Self { href: String }
 type Themas { href: String }
 
 input ZoekParameters { parameter: String zoekWaarden: [String ] }
-input ZoekParameterInputType { zoekParameters: [ZoekParameters ] }
+input ZoekParameterInputType { zoekParameters: [ZoekParameters] }
 
 type ActiviteitenResponseType { page: Page _links: Links _embedded: EmbeddedActiviteiten }
 
@@ -111,7 +111,7 @@ type Query {
 }
 
 type Mutation {
-  activiteitenzoek(parameter: ZoekParameterInputType): ActiviteitenResponseType  
+  activiteitenzoek(zoek: ZoekParameterInputType): ActiviteitenResponseType  
 }
 
 
