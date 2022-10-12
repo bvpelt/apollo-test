@@ -20,7 +20,7 @@
   "homepage": "https://github.com/bvpelt/apollo-test#readme",
   "dependencies": {
     "apollo-datasource-rest": "^0.9.5",
-    "apollo-server": "^2.19.0",
+    "apollo-server": "^2.25.4",
     "casual": "^1.6.2",
     "dotenv": "^8.2.0",
     "graphql": "^14.7.0",
